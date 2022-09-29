@@ -80,6 +80,14 @@ main{
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    transition: object-fit 1s ease-out ;
+}
+
+.image:hover{
+    object-fit: scale-down;
+    filter: grayscale(.6);
+    cursor: pointer;
 }
 
 .image1{
@@ -108,4 +116,26 @@ main{
 
 .image7{
     grid-area: g;
+}
+
+/* aside */
+aside{
+    justify-content: unset;
+    align-items: unset;
+
+    text-align: left;
+    font-size: 1rem;
+}
+
+.dev1_list{
+    color: white;
+}
+
+.dev2_list{
+    color: initial;
+    list-style-type: disc;
+}
+
+.til_web_link{
+    color: black;
 }
