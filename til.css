@@ -131,8 +131,7 @@ main{
     text-decoration: none;
 }
 
-.btns_til_link button{    
-    margin: 8px auto;
+.btns_til_link button{        
     padding: 4px 16px;
     transform: rotate(-180deg);  
     
@@ -150,7 +149,13 @@ main{
 
 
 /* mobile */
-@media (max-width:450px){
+@media (width < 450px){
+    .btns_til_link button{
+        margin: 0;
+        transition: margin 2s ease-in-out .1s;
+    }
+
+    .link_web_til,
     .footer{
         font-size: 1rem;
         transition: font-size 2s ease-in-out .1s;
@@ -158,7 +163,13 @@ main{
 }
 
 /* web */
-@media (min-width:450px){
+@media (width > 450px){
+    .btns_til_link button{
+        margin: 8px auto;
+        transition: margin 2s ease-in-out .1s;
+    }
+
+    .link_web_til,
     .footer{
         font-size: 2rem;
         transition: font-size 2s ease-in-out .1s;
