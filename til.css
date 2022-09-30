@@ -56,6 +56,12 @@ footer{
     grid-area: footer;
 }
 
+/* header */
+.title:hover{
+    filter: blur(1px);
+    cursor: not-allowed;
+    /* cursor: wait; */
+}
 /* Main */
 main{
     padding: 1rem;
