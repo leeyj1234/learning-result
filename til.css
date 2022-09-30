@@ -28,7 +28,7 @@ aside,
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin: 0;
     display: grid;
@@ -174,3 +174,4 @@ main{
         font-size: 2rem;
         transition: font-size 2s ease-in-out .1s;
     }
+}
