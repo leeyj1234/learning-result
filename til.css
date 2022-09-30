@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Layout.. */
 body{   
     padding: 0;
@@ -145,3 +146,19 @@ main{
 .footer address .git_link{
     color: white;
 }
+
+
+/* mobile */
+@media (max-width:450px){
+    .footer{
+        font-size: 1rem;
+        transition: font-size 2s ease-in-out .1s;
+    }
+}
+
+/* web */
+@media (min-width:450px){
+    .footer{
+        font-size: 2rem;
+        transition: font-size 2s ease-in-out .1s;
+    }
