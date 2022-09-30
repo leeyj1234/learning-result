@@ -132,6 +132,7 @@ main{
 }
 
 .btns_til_link button{    
+    margin: 8px auto;
     padding: 4px 16px;
     transform: rotate(-180deg);  
     
