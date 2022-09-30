@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* Layout.. */
-body{    
+body{   
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; 
+
     font-size: 2rem;
     font-weight: bold;
     background-color: white;
@@ -15,22 +19,15 @@ footer{
     align-items: center;
 }
 
-.header{
-    background-color: black;
-    color: white;
-}
-
-aside{
-    background-color: #ff9d00;
-}
-
+.header,
+aside,
 .footer{
     background-color: black;
     color: white;
 }
 
 body{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: 0;
     display: grid;
@@ -119,23 +116,32 @@ main{
 }
 
 /* aside */
-aside{
-    justify-content: unset;
-    align-items: unset;
-
+.btns_til_link{
+    padding: 16px;
+    
+    display: unset;
+    transform: rotate(180deg);
     text-align: left;
-    font-size: 1rem;
 }
 
-.dev1_list{
+.link_web_til{        
     color: white;
+    font-size: 2rem;
+    text-decoration: none;
 }
 
-.dev2_list{
-    color: initial;
-    list-style-type: disc;
+.btns_til_link button{    
+    padding: 4px 16px;
+    transform: rotate(-180deg);  
+    
+    border: 3px solid #ff9d00;
+    border-radius: 3px;    
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.til_web_link{
-    color: black;
+/* footer */
+
+.footer address .git_link{
+    color: white;
 }
