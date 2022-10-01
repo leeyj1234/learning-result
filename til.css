@@ -33,7 +33,7 @@ body{
     margin: 0;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 2fr 4fr 1fr;
+    grid-template-rows: 2fr 10fr 1fr;
     grid-template-areas:
     'header header'
     'main aside'
@@ -155,17 +155,16 @@ main{
 
 .btns_til_link button:hover{    
     background-color: #ff9d00;
-    /* box-shadow: 4px 8px 4px rgba(255, 255, 255, 0.2); */
 }
-/* footer */
 
+/* footer */
 .footer{
     position: relative;
 }
 
 .footer address .git_link{
     position: absolute;
-    bottom: 4rem;
+    bottom: 50%;
 
     color: white;
     
@@ -176,7 +175,7 @@ main{
 
 .footer address .git_link:hover{
     position: absolute;
-    bottom: 3rem;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);    
 }
