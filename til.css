@@ -57,9 +57,10 @@ footer{
 }
 
 /* header */
-.title:hover{    
-    filter: blur(1.5px);
-    cursor: not-allowed;
+.title:hover{
+    font-size: 6rem;    
+    filter: blur(8px);
+    cursor: none;
     /* cursor: wait; */
 }
 /* Main */
@@ -137,6 +138,11 @@ main{
     text-decoration: none;
 }
 
+.link_web_til:hover{
+    color: black;
+}
+
+
 .btns_til_link button{        
     padding: 4px 16px;
     transform: rotate(-180deg);  
@@ -147,12 +153,33 @@ main{
     cursor: pointer;
 }
 
+.btns_til_link button:hover{    
+    background-color: #ff9d00;
+    /* box-shadow: 4px 8px 4px rgba(255, 255, 255, 0.2); */
+}
 /* footer */
 
-.footer address .git_link{
-    color: white;
+.footer{
+    position: relative;
 }
 
+.footer address .git_link{
+    position: absolute;
+    bottom: 4rem;
+
+    color: white;
+    
+    transition: bottom 1s ease .1s;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+
+.footer address .git_link:hover{
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);    
+}
 
 /* mobile */
 @media (width < 450px){
