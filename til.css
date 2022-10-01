@@ -57,9 +57,14 @@ footer{
 }
 
 /* header */
-.title:hover{
+.title{
     font-size: 6rem;    
     filter: blur(8px);
+}
+
+.title:hover{
+    font-size: unset;
+    filter: unset;
     cursor: none;
     /* cursor: wait; */
 }
