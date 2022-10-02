@@ -60,15 +60,13 @@ footer{
 .title{
     font-size: 6rem;    
     filter: blur(8px);
-/* issue!! js -> mouseover로 변경, 눈부심해결하기********************** */
 }
 
-.title:hover{
+/* .title:hover{
     font-size: unset;
     filter: unset;    
-    cursor: none;
-    /* cursor: wait; */
-}
+    cursor: none;wait;    
+} */
 /* Main */
 main{
     padding: 1rem;
