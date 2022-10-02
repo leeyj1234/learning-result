@@ -148,10 +148,10 @@ main{
 
 
 .btns_til_link button{        
-    padding: 4px 16px;
+    /* padding: 4px 16px; */
     transform: rotate(-180deg);  
     
-    border: 3px solid #ff9d00;
+    /* border: 3px solid #ff9d00; */
     border-radius: 3px;    
     background-color: transparent;
     cursor: pointer;
