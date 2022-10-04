@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="event.css">
     <title>갤럭시 캠퍼스 스토어</title>
 </head>
 <body>
@@ -13,7 +15,8 @@
                 갤럭시 캠퍼스 스토어 
             </a>
         </h1>
-        <nav class="menu">
+        <!-- issue!! display 재지정하기 -->
+        <nav class="menu" style="display: none;">
             <ul class="menu_wrap">
                 <li class="menu_list">
                     <a href="#" class="menu_link">
@@ -100,8 +103,8 @@
     </header>
     
     <main class="container" rule="main">
-        <section class="join1 section1">
-            <div class="main_join_wrap1">
+        <section class="join_wrap1 section1">
+            <div class="join_wrap_inner1">
                 <p class="join_text1">
                     <span class="text1">
                         갤럭시 캠퍼스 스토어 회원이
@@ -112,13 +115,14 @@
                     </span>
                 </p>
                 <img src="login-img01.png" alt="join_immediately" class="join_image1">
-                <h2 class="btn_join1">
-
-                </h2>
+                <br>
+                <button class="btn_join1" type="button">
+                    로그인 하기
+                </button>
             </div>
         </section>
-        <section class="join2 section2">
-            <div class="main_join_wrap2">
+        <section class="join_wrap2 section2">
+            <div class="join_wrap_inner2">
                 <p class="join_text2">
                     <span class="text1">
                         아직  회원이 아니신가요?
@@ -129,9 +133,10 @@
                     </span>
                 </p>
                 <img src="login-img02.png" alt="join_add_modal" class="join_image2">
-                <h2 class="btn_join2">
-
-                </h2>
+                <br>
+                <button class="btn_join2" type="button">
+                    회원가입 하기
+                </button>
             </div>
         </section>
         <section class="guide1 section3">
