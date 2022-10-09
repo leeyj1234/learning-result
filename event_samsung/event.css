@@ -264,7 +264,7 @@ body {
 
 /* FOOTER - addEventListener */
 .toggle_hide{
-    display: none;
+    display: none;    
 }
 
 .event_main .footer .check_inform {
@@ -290,6 +290,7 @@ body {
         grid-template-rows: 56px 1fr auto;
     }
 
+    /* header */
     .event_main .header {        
         line-height: 56px;
     }
@@ -299,8 +300,8 @@ body {
     }
     
     .event_main .header .bi-chevron-left {        
-        margin-right: 2px;
-        font-size: 2em;
+        margin-right: 10px;
+        font-size: 1.6em;
         color: white;        
         display: unset;
     }
@@ -311,6 +312,31 @@ body {
 }
 
 @media (max-width: 802px) {
+
+    /* main_Layout... */
+    .event_main .container {
+        justify-items: center;
+        grid-template-areas: 
+        '. .'
+        'placed1 placed1'
+        'placed3 placed3_1'
+        'placed2 placed2'
+        'placed4 placed4'
+        '. .';
+    }
+
+    .event_main .join_wrap1, 
+    .event_main .join_wrap2{
+        width: 280px;
+    }
+
+    .event_main .guide_explain{
+        padding: 0 40px;
+        line-height: 1.6em;
+        font-size: 10px;
+    }
+
+    /* footer */
     .event_main .footer {
         padding-top: 16px;
     }
