@@ -61,11 +61,11 @@ footer{
     filter: blur(8px);
 }
 
-/* .title:hover{
-    font-size: unset;
-    filter: unset;    
-    cursor: none;wait;    
-} */
+.title a{
+    color: white;
+    text-decoration: none;
+}
+
 /* Main */
 main{
     padding: 1rem;
