@@ -245,19 +245,20 @@ body {
 
 .event_main .modal_content {
   z-index: 300;
-
-  max-width: 300px;
+  max-width: 320px;
   width: 100%;
   padding: 40px 20px;
-
   text-align: center;
   background: #fff;
   border-radius: 2vw;
-
   position: fixed;
   top: 30%;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 .event_main .modal_head {
@@ -285,11 +286,14 @@ body {
   background: #fff;
   border: 1px solid #e5e5e5;
   border-radius: 50%;
-
   position: absolute;
   bottom: -50px;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 /* FOOTER */
