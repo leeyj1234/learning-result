@@ -6,6 +6,19 @@
   margin: 0;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -55,7 +68,8 @@ button {
 /* main */
 .sample .div-container {
   width: 1080px;
-  height: calc(100vh - 240px);
+  /* height 생략예정 */
+  height: calc(100vh - 260px);
   margin: 0 auto;
 
   display: flex;
@@ -67,15 +81,31 @@ button {
 /* footer */
 .sample footer {
   width: 100%;
-  height: 80px;
-  line-height: 80px;
+  height: 100px;
 }
 
 .sample .footer-inner {
+  opacity: 0.6;
   width: 1080px;
   height: 100%;
   margin: 0 auto;
 
+  font-size: 14px;
+  text-align: center;
+  color: grey;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.sample footer a {
+  display: inline;
+  /* border: 1px solid grey; */
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
