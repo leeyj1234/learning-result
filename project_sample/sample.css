@@ -100,12 +100,18 @@ button {
   align-items: center;
 }
 
-.sample footer a {
-  display: inline;
-  /* border: 1px solid grey; */
+.sample .footer-inner span::after {
+  content: " | ";
+}
+
+.sample .footer-inner .ft-terms {
+  padding: 0 2px;
+
+  border: 1px solid rgba(184, 184, 184, 0.6);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  display: inline;
 }
