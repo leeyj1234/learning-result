@@ -27,7 +27,7 @@ button {
   background-color: transparent;
   border: 0;
 }
-
+/**font: ft*/
 .ft-serif {
   font-family: "Noto Serif KR", serif;
 }
