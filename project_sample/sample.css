@@ -44,6 +44,8 @@ button {
 .sample header {
   width: 100%;
   height: 160px;
+
+  border-bottom: 1px solid rgba(184, 184, 184, 0.6);
 }
 
 .sample .header-inner {
@@ -68,8 +70,7 @@ button {
 /* main */
 .sample .div-container {
   width: 1080px;
-  /* height 생략예정 */
-  height: calc(100vh - 260px);
+  /* height: calc(100vh - 260px); */
   margin: 0 auto;
 
   display: flex;

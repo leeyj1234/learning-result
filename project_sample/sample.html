@@ -7,6 +7,17 @@
     <title>ojakkyu</title>
     <!-- FAVICON -->
     <link rel="shortcut icon" href="./images/sample_fav_ico.ico" />
+     <!-- bulma css -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+   />
+
+   <script
+     defer
+     src="https://kit.fontawesome.com/9daa42bcef.js"
+     crossorigin="anonymous"
+   ></script>
     <!-- CSS -->
     <link rel="stylesheet" href="sample.css" />
     <!-- FONT -->
@@ -19,36 +30,147 @@
   </head>
   <body class="sample">
     <header class="header">
-      <div class="header-inner">
-        <div class="logo-wrap">
+      <section class="header-inner">
+        <section class="logo-wrap">
           <p class="logo-txt ft-serif">세상에 하나뿐인 추억을 선물하세요</p>
           <h1 class="logo">
             <a href="home.html">
               <img src="./images/sample_logo_h.png" alt="오작교" width="160" />
             </a>
           </h1>
-          <div class="gnb-utils">
+          <section class="gnb-utils">
             <button type="button">회원가입</button>
             <button type="button">장바구니(<span>5</span>)</button>
             <button type="button">로그인</button>
             <!-- 로그인 시 등장하도록 변경 -->
             <!-- <button type="button">마이페이지</button> -->
-          </div>
-        </div>
-      </div>
+          </section>
+        </section>
+      </section>
     </header>
-    <main role="main">
-      <div class="div-container">
-        <div class="landing" id="landingDiv">
-          <h1>랜딩 페이지</h1>
+    <main role="main" id="mainWrap" class="container is-max-desktop mt-5">
+      <section class="title-sub block mt-4">
+        <h2 class="title mb-6 has-text-grey-dark has-text-centered">
+          장바구니
+        </h2>
+        <p class="count-products subtitle has-text-right">
+          총&nbsp;
+          <span class="count-number">3</span>
+          개
+        </p>
+      </section>
+
+      <section class="product-list block">
+        <form
+          class="box block columns is-flex is-align-items-center is-justify-content-space-between"
+        >
+          <div class="is-flex is-align-items-center">
+            <figure class="image is-128x128 is-flex mr-2">
+              <img
+                src="https://bulma.io/images/placeholders/128x128.png"
+                class="mr-2"
+              />
+            </figure>
+            <div>
+              <h3 class="title is-5">[9월탄생석] 쁘띠 디디 골드 목걸이</h3>
+              <p class="subtitle is-7">
+                9월의 탄생석 사파이어입니다. <br />
+                사파이어는 변치 않는 사랑을 약속하는 의미로. <br />
+                연인의 기념일에 어울리는 보석이에요.
+              </p>
+              <p class="subtitle is-7 tag is-link is-light">
+                <span>19,000</span>&nbsp;원
+              </p>
+            </div>
+          </div>
+          <div
+            class="block is-flex is-align-items-center is-justify-content-flex-end"
+          >
+            <input class="input is-3 column mr-2" type="text" placeholder="0" />
+            <button class="delete column"></button>
+          </div>
+        </form>
+
+        <form
+          class="box block columns is-flex is-align-items-center is-justify-content-space-between"
+        >
+          <div class="is-flex is-align-items-center">
+            <figure class="image is-128x128 is-flex mr-2">
+              <img
+                src="https://bulma.io/images/placeholders/128x128.png"
+                class="mr-2"
+              />
+            </figure>
+            <div>
+              <h3 class="title is-5">[9월탄생석] 쁘띠 디디 골드 목걸이</h3>
+              <p class="subtitle is-7">
+                9월의 탄생석 사파이어입니다. <br />
+                사파이어는 변치 않는 사랑을 약속하는 의미로. <br />
+                연인의 기념일에 어울리는 보석이에요.
+              </p>
+              <p class="subtitle is-7 tag is-link is-light">
+                <span>19,000</span>&nbsp;원
+              </p>
+            </div>
+          </div>
+          <div
+            class="block is-flex is-align-items-center is-justify-content-flex-end"
+          >
+            <input class="input is-3 column mr-2" type="text" placeholder="0" />
+            <button class="delete column"></button>
+          </div>
+        </form>
+
+        <form
+          class="box block columns is-flex is-align-items-center is-justify-content-space-between"
+        >
+          <div class="is-flex is-align-items-center">
+            <figure class="image is-128x128 is-flex mr-2">
+              <img
+                src="https://bulma.io/images/placeholders/128x128.png"
+                class="mr-2"
+              />
+            </figure>
+            <div>
+              <h3 class="title is-5">[9월탄생석] 쁘띠 디디 골드 목걸이</h3>
+              <p class="subtitle is-7">
+                9월의 탄생석 사파이어입니다. <br />
+                사파이어는 변치 않는 사랑을 약속하는 의미로. <br />
+                연인의 기념일에 어울리는 보석이에요.
+              </p>
+              <p class="subtitle is-7 tag is-link is-light">
+                <span>19,000</span>&nbsp;원
+              </p>
+            </div>
+          </div>
+          <div
+            class="block is-flex is-align-items-center is-justify-content-flex-end"
+          >
+            <input class="input is-3 column mr-2" type="text" placeholder="0" />
+            <button class="delete column"></button>
+          </div>
+        </form>
+      </section>
+      <section class="total mt-6">
+        <div class="is-flex is-justify-content-space-between">
+          <div class="block">
+            <h3 class="title is-4 has-text-grey-dark">
+              총액:&nbsp;<span class="has-text-danger">19,000</span>&nbsp;원
+            </h3>
+            <p class="subtitle is-7"></p>
+          </div>
+          <button class="button is-danger is-outlined px-6 py-5">
+            결제하기
+          </button>
         </div>
-        <div class="greeting" id="greetingDiv">
-          <h1>안녕하세요!</h1>
-        </div>
-      </div>
+        <button class="button is-danger is-outlined mb-4 px-5">
+          더 구매하기
+        </button>
+      </section>
     </main>
+
     <footer class="footer">
-      <div class="footer-inner">
+      <section class="footer-inner">
         <ul class="ft-list">
           <!--footer: ft-->
           <span class="ft-email">이메일 contact@elice.io</span>
